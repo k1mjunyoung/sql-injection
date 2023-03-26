@@ -39,7 +39,7 @@ var app = http.createServer(function(request,response){
         var html = template.html(title, list,
           `
           <h3>${description}</h3>
-          <a href="/create">create</a>
+          <a href="/create">Create</a>
           `
           );
         response.writeHead(200);
@@ -69,7 +69,7 @@ var app = http.createServer(function(request,response){
                 <h2>${name}</h2>
                 <h3>${pw}</h3>
                 `,
-                `<a href="/create">create</a>
+                `<a href="/create">Create</a>
                 <a href="/update?id=${queryData.id}">update</a>
                 <form action="delete_process" method="post">
                   <input type="hidden" name="id" value="${queryData.id}">
@@ -94,7 +94,7 @@ var app = http.createServer(function(request,response){
             <p><input type="submit"></p>
           </form>
           `,
-          `<a href="/create">create</a>`
+          `<a href="/create">Create</a>`
           );
         response.writeHead(200);
         response.end(html);
@@ -139,7 +139,7 @@ var app = http.createServer(function(request,response){
               <p><input type="submit"></p>
             </form>`,
             // 글 생성, 수정 부분
-            `<a href="/create">create</a>
+            `<a href="/create">Create</a>
             <a href="/update?id=${user[0].id}">update</a>`
           );
           response.writeHead(200);

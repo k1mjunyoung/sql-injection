@@ -21,6 +21,6 @@
   "homepage": "https://github.com/k1mjunyoung/node.js#readme",
   "dependencies": {
     "mysql": "^2.18.1",
-    "sanitize-html": "^2.8.1"
+    "sanitize-html": "^2.10.0"
   }
 }
