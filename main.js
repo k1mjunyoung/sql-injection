@@ -4,7 +4,6 @@ var fs = require('fs');
 var url = require('url');
 var qs = require('querystring');
 var path = require('path');
-var sanitizeHtml = require('sanitize-html');
 
 // database
 var mysql      = require('mysql');
