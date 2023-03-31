@@ -16,7 +16,7 @@ Test environment required to analyze attacks and countermeasures by type of SQL 
 3. ```mysqlConfig.js``` 파일에 아래 코드 작성
 ```
 var mysqlConfig = {
-  host     : 'localhost',
+  host     : '???',
   user     : '???',
   password : '???',
   database : '???'
